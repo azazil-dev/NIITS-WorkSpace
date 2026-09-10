@@ -14,7 +14,7 @@
 
 ---
 
-## 🏢 About
+## About
 
 **NIITS WorkSpace** is the central development repository used by the **NIITS team** to collaborate on software development, experimentation, internal tools, and digital products.
 
@@ -36,7 +36,7 @@ This repository may contain multiple applications, services, experiments, and sh
 
 | Technology   | Purpose                                |
 | ------------ | -------------------------------------- |
-| ⚛️ **React** | User interface & frontend applications |
+| **React** | User interface & frontend applications |
 | JavaScript   | Primary frontend language              |
 | HTML5        | Application structure                  |
 | CSS3         | Styling & layout                       |
@@ -45,8 +45,8 @@ This repository may contain multiple applications, services, experiments, and sh
 
 | Technology        | Purpose                     |
 | ----------------- | --------------------------- |
-| 🟢 **Node.js**    | JavaScript runtime          |
-| 🚂 **Express.js** | REST API & backend services |
+| **Node.js**    | JavaScript runtime          |
+| **Express.js** | REST API & backend services |
 | JavaScript        | Backend development         |
 
 ### Development Tools
@@ -60,7 +60,7 @@ This repository may contain multiple applications, services, experiments, and sh
 
 ---
 
-## 📁 Workspace Structure
+## Workspace Structure
 
 ```text
 NIITS-WorkSpace/
@@ -91,7 +91,7 @@ NIITS-WorkSpace/
 
 ---
 
-# 🤝 Team Collaboration
+# Team Collaboration
 
 Repository ini bersifat **team workspace**.
 
@@ -126,7 +126,7 @@ Setiap anggota tim diharapkan mengikuti workflow Git yang telah disepakati agar 
 
 ---
 
-## 🌿 Branch Convention
+## Branch Convention
 
 Gunakan branch sesuai dengan jenis pekerjaan:
 
@@ -152,7 +152,7 @@ docs/setup-guide
 
 ---
 
-## 🔄 Recommended Git Workflow
+## Recommended Git Workflow
 
 ### 1. Update local branch
 
@@ -208,7 +208,7 @@ Buat **Pull Request** dan tunggu proses review sebelum melakukan merge.
 
 ---
 
-# 📌 Development Rules
+# Development Rules
 
 ### ✅ Do
 
@@ -382,14 +382,14 @@ Sebelum membuat Pull Request:
 
 ---
 
-# 📜 License
+# License
 
 This project and its source code are intended for **NIITS internal development and team collaboration** unless otherwise specified.
 
 ---
 
 <p align="center">
-  <strong>Built with ❤️ by NIITS Team</strong>
+  <strong>Built by NIITS Team</strong>
   <br>
   <sub>Build • Collaborate • Ship</sub>
 </p>
