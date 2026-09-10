@@ -30,7 +30,7 @@ This repository may contain multiple applications, services, experiments, and sh
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -250,7 +250,7 @@ git --version
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone repository:
 
@@ -286,7 +286,7 @@ npm run dev
 
 ---
 
-# 🔐 Environment Variables
+# Environment Variables
 
 Jangan pernah commit file `.env` ke repository.
 
@@ -308,7 +308,7 @@ sebagai template konfigurasi environment.
 
 ---
 
-# 🧱 Architecture
+# Architecture
 
 Secara umum, aplikasi menggunakan pendekatan:
 
@@ -340,7 +340,7 @@ Frontend bertanggung jawab terhadap **UI dan user interaction**, sedangkan backe
 
 ---
 
-# 🧪 Development Checklist
+# Development Checklist
 
 Sebelum membuat Pull Request:
 
@@ -358,7 +358,7 @@ Sebelum membuat Pull Request:
 
 ---
 
-# 📋 Project Status
+# Project Status
 
 | Area               | Status         |
 | ------------------ | -------------- |
@@ -370,7 +370,7 @@ Sebelum membuat Pull Request:
 
 ---
 
-# 👥 NIITS Team
+# NIITS Team
 
 > This repository is maintained and developed collaboratively by the **NIITS team**.
 
