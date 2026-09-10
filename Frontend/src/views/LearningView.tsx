@@ -1056,6 +1056,7 @@ export const LearningView: React.FC<LearningViewProps> = ({
           )}
 
         </div>
+        )}
       </div>
 
       {/* ========================================================================= */}
