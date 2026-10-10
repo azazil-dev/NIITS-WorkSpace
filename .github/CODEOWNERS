@@ -1,0 +1,14 @@
+# CODEOWNERS
+#
+# Menentukan reviewer default untuk pull request.
+# Ganti owner di bawah dengan akun/atau tim maintainer yang sesuai.
+# Format: <pattern> <@user atau @org/team>
+#
+# Contoh:
+#   *                       @niitsinovasiteknologi/maintainers
+#   /Frontend/              @username-frontend
+#   /Backend/               @username-backend
+#   /*.md                   @username-docs
+
+# Default owner untuk seluruh repository
+*   @azazil-dev
