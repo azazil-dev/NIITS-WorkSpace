@@ -65,29 +65,32 @@ This repository may contain multiple applications, services, experiments, and sh
 ```text
 NIITS-WorkSpace/
 │
-├── frontend/
+├── Frontend/                 # React + Vite + TypeScript
 │   ├── src/
-│   ├── public/
+│   │   ├── components/       # Komponen UI reusable
+│   │   ├── views/            # Halaman / view utama
+│   │   ├── data/             # Data mock (sementara)
+│   │   ├── types/            # Definisi tipe TypeScript
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   ├── index.html
 │   ├── package.json
-│   └── ...
+│   └── vite.config.ts
 │
-├── backend/
+├── Backend/                  # Express.js (stub)
 │   ├── src/
-│   ├── routes/
-│   ├── controllers/
-│   ├── middleware/
+│   │   └── index.js
 │   ├── package.json
-│   └── ...
+│   └── .env.example
 │
-├── docs/
-│   └── ...
-│
+├── docs/                     # Dokumentasi proyek (planned)
+├── .github/                  # Template PR & issue (planned)
 ├── .gitignore
-├── README.md
-└── ...
+└── README.md
 ```
 
 > Struktur dapat berkembang mengikuti kebutuhan project dan standar tim.
+> Folder backend seperti `routes/`, `controllers/`, dan `middleware/` akan ditambahkan pada tahap integrasi API. Lihat [docs/ROADMAP.md](./docs/ROADMAP.md).
 
 ---
 
@@ -123,6 +126,8 @@ Setiap anggota tim diharapkan mengikuti workflow Git yang telah disepakati agar 
                ▼
            develop
 ```
+
+> ⚠️ **Catatan:** Branch `develop` belum dibuat di repository saat ini. Selama belum tersedia, buat branch fitur dari `main` dan ajukan Pull Request ke `main`. Setelah `develop` dibuat, ikuti alur di atas.
 
 ---
 
@@ -206,6 +211,8 @@ feature/* → develop
 
 Buat **Pull Request** dan tunggu proses review sebelum melakukan merge.
 
+> Panduan kontribusi lengkap (setup, konvensi commit, checklist PR) tersedia di [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ---
 
 # Development Rules
@@ -252,32 +259,38 @@ git --version
 
 ## Installation
 
-Clone repository:
+### 1. Fork & Clone
+
+Fork repository ini di GitHub, lalu clone **fork milikmu**:
 
 ```bash
-git clone https://github.com/niitsinovasiteknologi/NIITS-WorkSpace.git
-```
-
-Masuk ke directory:
-
-```bash
+git clone https://github.com/<username>/NIITS-WorkSpace.git
 cd NIITS-WorkSpace
 ```
 
-### Frontend
+### 2. Hubungkan ke repo utama (upstream)
+
+Agar dapat menyinkronkan perubahan terbaru dari repo utama:
 
 ```bash
-cd frontend
+git remote add upstream https://github.com/niitsinovasiteknologi/NIITS-WorkSpace.git
+git fetch upstream
+```
+
+### Frontend (port 3000)
+
+```bash
+cd Frontend
 npm install
 npm run dev
 ```
 
-### Backend
+### Backend (port 5000)
 
 Buka terminal baru:
 
 ```bash
-cd backend
+cd Backend
 npm install
 npm run dev
 ```
